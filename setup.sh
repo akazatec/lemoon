@@ -26,6 +26,12 @@ if ! command -v python3 &> /dev/null; then
 fi
 
 echo -e "\e[1;33m[*] Installing packages...\e[0m"
+if command -v pkg &> /dev/null; then
+    pkg install libjpeg-turbo libpng libxml2 libxslt -y
+fi
+if command -v apt &> /dev/null; then
+    sudo apt install libxml2-dev libxslt-dev libjpeg-dev -y
+fi
 pip3 install -r requirements.txt
 
 echo -e "\e[1;32m"
