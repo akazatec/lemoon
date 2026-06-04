@@ -1,0 +1,9 @@
+rich
+pyfiglet
+colorama
+Pillow
+mutagen
+PyPDF2
+python-docx
+beautifulsoup4
+requests
