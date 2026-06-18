@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/API-Not%20Required-yellow?style=for-the-badge"/>
 </p>
 
-**Lemoon** is a powerful Python-based multi-tool suite with a clean yellow terminal UI. Extract metadata, edit files, hunt dorks, reverse search images and fetch system info — all in one tool!
+**Lemoon** is a powerful Python-based multi-tool suite with a clean yellow terminal UI. Extract metadata, edit files, hunt dorks, reverse search images and fetch system info also search for internet archives— all in one tool!
 
 > ⚠️ **Educational Purposes Only** — Any misuse is strictly prohibited. Author is not responsible for misuse.
 
@@ -35,7 +35,7 @@
 - 🎯 **DorkHunter** — 20+ predefined Google dorks + custom dork generator
 - 🖼️ **ImgReverse** — Google Lens, Yandex, Bing, TinEye reverse image search
 - 💻 **TermFetch** — Full system info (OS, CPU, RAM, IP, Network, Shell)
-- ❌ **No API Required** — Works completely offline (except ImgReverse & TermFetch public IP)
+- ❌ **ArchiveHunt** — Wayback Machine / Internet Archive
 
 ---
 
@@ -74,6 +74,7 @@ python3 lemoon.py
 [3] DorkHunter
 [4] ImgReverse
 [5] TermFetch
+[6] ArchiveHunt  --New
 [0] Exit
 ```
 
